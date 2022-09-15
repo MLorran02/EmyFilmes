@@ -267,3 +267,47 @@ body {
     transform: translateX(-20px);
 }
 
+
+@media screen and (max-width: 420px){
+  .featured-content {
+    width: 100px;
+    padding: 0;
+    justify-content: center;
+  }
+  .featured-desc {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 667px){
+  .menu-container{
+    display: none;
+  }
+  .featured-content, .featured-title, .featured-desc{
+    width: 100%;
+    font-size: small;
+  }
+  .movie-list-title {
+    font-weight: bold;
+    font-size: 20px;
+    margin-top:20px
+  }
+
+  .featured-button {
+    display:none
+  }
+}
+
+@media screen and (max-width: 940px){
+  .menu-container{
+    display: none;
+  }
+  .featured-content, .featured-title, .featured-desc{
+    width: 100%;
+    font-size: medium;
+  }
+  .movie-list-title {
+    font-weight: bold;
+    font-size: 20px;
+  }
+}
