@@ -48,6 +48,7 @@ body {
 .menu-list-item.active {
   font-weight: bold;
 }
+
 .profile-container {
   flex: 2;
   display: flex;
@@ -202,7 +203,7 @@ body {
 .movie-list-item-desc {
   background-color: #333;
   padding: 10px;
-  font-size: 12px;
+  font-size: 14px;
   position: absolute;
   top: 30%;
   left: 50px;
